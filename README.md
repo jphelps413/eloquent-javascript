@@ -1,7 +1,7 @@
-# node-webpack-repo
+# eloquent-javascript
 
-This is simply a bare bones node and webpack repository with a commit hook
-that expects to run eslint successfully. After cloning this run *npm
+A cloned node webpack repo to contain the exercises from [Eloquent
+Javascript](http://eloquentjavascript.net/).  After cloning this run *npm
 install* and then you should be able to *npm run build*.
 
 ### git hooks
