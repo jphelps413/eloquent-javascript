@@ -10,7 +10,8 @@ const nodeEnv = process.env.NODE_ENV || 'production';
 module.exports = {
   entry: {
     app: './src/index.js',
-    print: './src/print.js'
+    print: './src/print.js',
+    eloq06: './src/eloq_06.js',
   },
   devtool: 'inline-source-map',
   devServer: {
