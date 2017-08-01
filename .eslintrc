@@ -8,6 +8,6 @@
   },
   "extends": "airbnb",
   "rules": {
-    "no-console": "warn",
+    "no-console": "off", # warn
   }
 }

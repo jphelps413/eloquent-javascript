@@ -11,7 +11,7 @@ module.exports = {
   entry: {
     app: './src/index.js',
     print: './src/print.js',
-    eloq06: './src/eloq_06.js',
+    eloqjs: './src/05_Higher_Order.js',
   },
   devtool: 'inline-source-map',
   devServer: {
