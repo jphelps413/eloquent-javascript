@@ -2,7 +2,8 @@
 
 A cloned node webpack repo to contain the exercises from [Eloquent
 Javascript](http://eloquentjavascript.net/).  After cloning this run *npm
-install* and then you should be able to *npm run build*.
+install* and then you should be able to *npm start* to bring up the build
+watcher and open a window running the code in a browser.
 
 ### git hooks
 
@@ -20,9 +21,3 @@ area on github, down in the *eslint-config-airbnb* directory. The install
 instructions will probably use *--save-dev* switch to install the rules
 locally, which is fine, but I install them globally via *-g* since the plan
 is to use the guide everywhere I write Javascript.
-
-### How about running with a browser?
-
-This worked before:
-npm install browser-sync
-browser-sync --directory-server --files *.js *.html *.css
